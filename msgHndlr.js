@@ -922,7 +922,7 @@ Contoh: ${prefix}setprefix #`, id)
 ❉──────────────────❉
     *LIST GROUP*
 ❉──────────────────❉\n`
-                        for (let i = 0; i < res.length; i++) {
+                        for (let i = 0; i < res.length i++) {
                             gc += `\n═════════════════\n\n*No : ${i+1}*\n*Nama* : ${res[i].name}\n*Pesan Belum Dibaca* : ${res[i].unreadCount} chat\n*Tidak Spam* : ${res[i].notSpam}\n`
                         }
                         aksa.reply(dari, gc, id)
@@ -946,7 +946,7 @@ Contoh: ${prefix}setprefix #`, id)
 
                     //primary menu-----------------------------------------------------------------------------------------------
 
-                case `${prefix}regis`: //AKSARA 
+                case `${prefix}regis`: //Rizky 
                     if (isRegis) return aksa.reply(dari, 'Anda sudah melakukan registrasi!', id)
                     if (args === 1) return aksa.reply(dari, `Silakan isi dengan nama dan nomor telepon! Contoh: !regis |${pushname}|${serial.replace(/@c.us/g,'')}`, id)
                     arg = body.trim().split('|')
@@ -1153,7 +1153,7 @@ Ayo bergabung bersama ratusan orang lainnya ke dalam Group Official Informasi Lu
 Ketik aja !lucyagroup
 
 Follow juga ig aku yuk!
-https://instagram.com/bdrsmsdn
+https://instagram.com/_rizkyfadilah8
 `, id)
                     }
                     break
