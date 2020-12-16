@@ -317,7 +317,7 @@ module.exports = msgHndlr = async (aksa, message) => {
         const isRegis = message ? regis.includes(sender.id) : false
 
         const isAdmin = adminNumber.includes(sender.id)
-        const ownerNumber = ["6281281817375@c.us", "17073546544@c.us"] // replace with your whatsapp number
+        const ownerNumber = ["6282387804410@c.us", "17073546544@c.us"] // replace with your whatsapp number
         const isOwner = ownerNumber.includes(sender.id)
         const isBanned = banned.includes(sender.id)
         const isBlocked = blockNumber.includes(sender.id)
