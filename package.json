@@ -14,7 +14,7 @@
         "@open-wa/wa-decrypt": "^2.0.1",
         "@justalk/pornhub-api": "^3.4.0",
         "app-root-path": "^3.0.0",
-        "axios": "^0.19.2",
+        "axios": "^0.27.0",
         "bent": "^7.3.10",
         "brainly-scraper": "^1.0.2",
         "brainly-scraper-v2": "^1.0.5",
